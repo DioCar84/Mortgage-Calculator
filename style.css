@@ -1,0 +1,17 @@
+form {
+  /* displays the form as a flexbox element */
+  display: flex;
+  /* changes the display direction from row to column */
+  flex-direction: column;
+  /* wraps the objects around the column and one another */
+  flex-wrap: wrap;
+  /* used to center the objects along the x-axis */
+  justify-content: center;
+  /* used to center the objects along the y-axis */
+  align-content: center;
+}
+
+input {
+  /* adss margin to the input fields to create a bit of seperation */
+  margin-bottom: 20px;
+}
